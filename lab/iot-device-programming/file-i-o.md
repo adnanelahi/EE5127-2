@@ -2,6 +2,8 @@
 
 The code will first generate random data and write to a file `data.txt`. The next block of code will read data from `data.txt` , parse this data and print this data on the console.
 
+> `with` keyword used in the below code ensures that the opened file is closed at the end of read or write operations.
+
 ````python
 ```python
 import random
@@ -12,7 +14,6 @@ with open("data.txt", "w") as fhandle:
         #x2 = random.randint(1,255)
         #fhandle.write(str(x1) + "," + str(x2) + "\n")
         fhandle.write(str(x1) + "\n")
-fhandle.close()
 
 data = []
 with open("data.txt", "r") as fhandle:
@@ -20,7 +21,7 @@ with open("data.txt", "r") as fhandle:
         line=line.rstrip('\n')
         line=line.rstrip('\r')
         data.append(line.split(','))
-fhandle.close()
+
 while True:
     for row in data:
         print(row)

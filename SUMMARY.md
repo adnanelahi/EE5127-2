@@ -6,6 +6,7 @@
 
 * [IoT Device Programming](lab/iot-device-programming/README.md)
   * [CircuitPython Installation](lab/iot-device-programming/circuitpython-installation.md)
+  * [File I/O](lab/iot-device-programming/file-i-o.md)
 * [Azure IoT Hub](lab/azure-iot-hub/README.md)
   * [Setup Azure IoT Hub](lab/azure-iot-hub/setup-azure-iot-hub.md)
   * [Transmit Sensor Data from Simulated Gateway](lab/azure-iot-hub/transmit-sensor-data-from-simulated-gateway.md)

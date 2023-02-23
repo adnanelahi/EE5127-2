@@ -4,7 +4,6 @@ The code will first generate random data and write to a file `data.txt`. The nex
 
 > `with` keyword used in the below code ensures that the opened file is closed at the end of read or write operations.
 
-````python
 ```python
 import random
 import time
@@ -27,4 +26,3 @@ while True:
         print(row)
         time.sleep(0.5)
 ```
-````

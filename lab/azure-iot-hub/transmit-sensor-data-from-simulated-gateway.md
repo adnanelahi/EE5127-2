@@ -15,8 +15,6 @@ There are three areas in the web simulator.
   * **Reset** - Reset the coding area to the default sample application.
   * **Fold/Expand** - On the right side there is a button for you to fold/expand the console window.
 
-> The Raspberry Pi web simulator is now available in preview version. We'd like to hear your voice in the [Gitter Chatroom](https://gitter.im/Microsoft/raspberry-pi-web-simulator). The source code is public on [Github](https://github.com/Azure-Samples/raspberry-pi-web-simulator).
-
 ![Overview of Pi online simulator](https://docs.microsoft.com/en-us/azure/iot-hub/media/iot-hub-raspberry-pi-web-simulator/0\_overview.png)
 
 ## Run a sample application on Pi web simulator <a href="#run-a-sample-application-on-pi-web-simulator" id="run-a-sample-application-on-pi-web-simulator"></a>

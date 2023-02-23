@@ -35,28 +35,24 @@ _Important : Because the IoT hub will be publicly discoverable as a DNS endpoint
 
 ## Register a device <a href="#register-a-device" id="register-a-device"></a>
 
-* In the [Azure portal](https://portal.azure.com/), open your IoT hub. This should be available under **Resource**.
-* Click **Devices** under **Device Management**.
+1. In the [Azure portal](https://portal.azure.com/), open your IoT hub. This should be available under **Resource**.
+2. Click **Devices** under **Device Management**.
 
 ![Add an IoT device in Azure IoT hub.](../../.gitbook/assets/add-iot-device-in-iothub.png)
 
-*   In the Devices pane, click **Add** to add a device to your IoT hub.
+3. In the Devices pane, click **Add** to add a device to your IoT hub.
+   * **Device ID**: The ID of the new device. Device IDs are case sensitive.
+   * **Authentication Type**: Select **Symmetric Key**.
+   * **Auto Generate Keys**: Check this field.
+   * **Connect device to IoT Hub**: Click **Enable**.
+   * Click **Save**.
 
-    **Device ID**: The ID of the new device. Device IDs are case sensitive.
+<figure><img src="../../.gitbook/assets/configure-iot-device-settings.png" alt=""><figcaption><p>IoT device configuration</p></figcaption></figure>
 
-    **Authentication Type**: Select **Symmetric Key**.
+4. After the device is created, open the device in the **Devices** pane. You may need to click the **Refresh** button for the device to appear.
+   * Make a note of the primary key of the connection string, which looks like:
+   * `HostName={YourIoTHubName}.azure-devices.net;DeviceId=MyPythonDevice;SharedAccessKey={YourSharedAccessKey}`
+   * You'll use this value later in the next step.
 
-    **Auto Generate Keys**: Check this field.
-
-    **Connect device to IoT Hub**: Click **Enable**.
-* Click **Save**.
-* After the device is created, open the device in the **Device Explorer** pane.
-* Make a note of the primary key of the connection string.
-
-![](../../.gitbook/assets/7\_get-device-connection-string-in-device-explorer-portal.png)
-
-* Make a note of the device connection string, which looks like:
-*   `HostName={YourIoTHubName}.azure-devices.net;DeviceId=MyPythonDevice;SharedAccessKey={YourSharedAccessKey}`
-
-    You'll use this value later in the next step.
+![IoT device connection string](../../.gitbook/assets/iot-device-connection-string.png)
 

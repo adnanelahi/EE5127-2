@@ -103,7 +103,7 @@ In this section, you will configure an IoT Hub device input to the Stream Analyt
 5. Click **Run**. The output should show the sensor data and messages that are being sent to your IoT Hub.
 6. After few minutes, in the portal, find the storage account (_ee5122iothubstorage_) & the container that you have configured as output for the job (_iothubdatacontainer_). You can now see the output file in the container. The job takes a few minutes to start for the first time, after it is started, it will continue to run as the data arrives.
 
-![](../../.gitbook/assets/chrome\_DnkVPh3nxC.png)
+![](broken-reference)
 
 ## Clean up resources <a href="#clean-up-resources" id="clean-up-resources"></a>
 

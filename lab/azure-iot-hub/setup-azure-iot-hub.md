@@ -16,7 +16,7 @@ This section describes how to create an IoT hub using the [Azure portal](https:/
 
     _Important : Because the IoT hub will be publicly discoverable as a DNS endpoint, be sure to avoid entering any sensitive or personally identifiable information when you name it._&#x20;
 
-![](../.gitbook/assets/iot-hub-create-screen-basics.png)
+![](../../.gitbook/assets/iot-hub-create-screen-basics.png)
 
 *   Select **Next: Networking** to continue creating your hub.
 
@@ -51,16 +51,16 @@ This section describes how to create an IoT hub using the [Azure portal](https:/
 
     **Connect device to IoT Hub**: Click **Enable**.
 
-![](../.gitbook/assets/6\_add-device-in-azure-iot-hub-device-explorer-portal.png)
+![](../../.gitbook/assets/6\_add-device-in-azure-iot-hub-device-explorer-portal.png)
 
 * Click **Save**.
 * After the device is created, open the device in the **Device Explorer** pane.
 * Make a note of the primary key of the connection string.
 
-![](../.gitbook/assets/7\_get-device-connection-string-in-device-explorer-portal.png)
+![](../../.gitbook/assets/7\_get-device-connection-string-in-device-explorer-portal.png)
 
 * Make a note of the device connection string, which looks like:
 *   `HostName={YourIoTHubName}.azure-devices.net;DeviceId=MyPythonDevice;SharedAccessKey={YourSharedAccessKey}`
 
-    You'll use this value later in the quickstart.
+    You'll use this value later in the next step.
 

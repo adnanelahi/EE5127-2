@@ -1,10 +1,15 @@
 # Table of contents
 
 * [Home](README.md)
-* [Azure IoT Hub](azure-iot-hub/README.md)
-  * [Setup Azure IoT Hub](azure-iot-hub/setup-azure-iot-hub.md)
-  * [Send telemetry using Raspberry Pi web simulator](azure-iot-hub/send-telemetry-using-raspberry-pi-web-simulator.md)
-  * [Monitor D2C messages in VS Code](azure-iot-hub/monitor-d2c-messages-in-vs-code.md)
-  * [Send telemetry data using Raspberry Pi device](azure-iot-hub/send-telemetry-data-using-raspberry-pi-device.md)
-  * [Save telemetry data to Azure Blob storage](azure-iot-hub/save-telemetry-data-to-azure-blob-storage.md)
-  * [Visualise data in Power BI](azure-iot-hub/visualise-data-in-power-bi.md)
+
+## Lab
+
+* [IoT Device Programming](lab/iot-device-programming/README.md)
+  * [CircuitPython Installation](lab/iot-device-programming/circuitpython-installation.md)
+* [Azure IoT Hub](lab/azure-iot-hub/README.md)
+  * [Setup Azure IoT Hub](lab/azure-iot-hub/setup-azure-iot-hub.md)
+  * [Transmit Sensor Data from Simulated Gateway](lab/azure-iot-hub/transmit-sensor-data-from-simulated-gateway.md)
+  * [Monitor D2C messages in VS Code](lab/azure-iot-hub/monitor-d2c-messages-in-vs-code.md)
+  * [Transmit Sensor Data using Gateway Device](lab/azure-iot-hub/transmit-sensor-data-using-gateway-device.md)
+  * [Save telemetry data to Azure Blob storage](lab/azure-iot-hub/save-telemetry-data-to-azure-blob-storage.md)
+  * [Visualise data in Power BI](lab/azure-iot-hub/visualise-data-in-power-bi.md)

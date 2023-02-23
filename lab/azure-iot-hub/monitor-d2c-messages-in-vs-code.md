@@ -15,13 +15,13 @@
 5. Your IoT Hub list will be shown, then select an IoT Hub.
 6. The device list will be shown.
 
-![](../.gitbook/assets/select-iothub.gif)
+![](../../.gitbook/assets/select-iothub.gif)
 
 ### Command Palette <a href="#command-palette" id="command-palette"></a>
 
 You can access almost all Azure IoT Services provided by these extensions through the Command Palette. Simply press F1, then type in **IoT** to find available commands.
 
-![](../.gitbook/assets/command-palette.png)
+![](../../.gitbook/assets/command-palette.png)
 
 **Monitor IoT Hub D2C message in Visual Studio Code**
 
@@ -29,9 +29,9 @@ While you could send message to your IoT Hub, it is also possible to monitor tho
 
 * Right-click your device and select **Start Monitoring Built-in Event Endpoint**.
 
-![](<../.gitbook/assets/start (1).png>)
+![](<../../.gitbook/assets/start (1).png>)
 
 * The monitored messages will be shown in **OUTPUT > Azure IoT Hub** view.
 * To stop monitoring, right-click the **OUTPUT** view and select **Stop Monitoring Built-in Event Endpoint**.
 
-![](<../.gitbook/assets/stop (1).png>)
+![](<../../.gitbook/assets/stop (1).png>)

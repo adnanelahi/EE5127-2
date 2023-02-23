@@ -1,4 +1,4 @@
-# Send telemetry using Raspberry Pi web simulator
+# Transmit Sensor Data from Simulated Gateway
 
 ## Overview of Raspberry Pi web simulator <a href="#overview-of-raspberry-pi-web-simulator" id="overview-of-raspberry-pi-web-simulator"></a>
 
@@ -23,9 +23,9 @@ There are three areas in the web simulator.
 
 1. In coding area, make sure you are working on the default sample application. Replace the placeholder in Line 15 with the Azure IoT hub device connection string.&#x20;
 
-![](../.gitbook/assets/1\_connectionstring.png)
+![](../../.gitbook/assets/1\_connectionstring.png)
 
 * Click **Run** or type `npm start` to run the application.
 * You should see the following output that shows the sensor data and the messages that are sent to your IoT hub
 
-![](../.gitbook/assets/2\_run\_application.png)
+![](../../.gitbook/assets/2\_run\_application.png)

@@ -1,4 +1,4 @@
-# Send telemetry data using Raspberry Pi device
+# Transmit Sensor Data using Gateway Device
 
 ### In this article
 
@@ -89,8 +89,8 @@ pip3 install azure.iot.device
 
 * You will see the following output in the terminal.
 
-![](../.gitbook/assets/vncviewer\_EdhWaA1agd.png)
+![](../../.gitbook/assets/vncviewer\_EdhWaA1agd.png)
 
 You can monitor [Monitor D2C (device-to-cloud) messages in VS code](monitor-d2c-messages-in-vs-code.md). A sample output is shown below.
 
-![](../.gitbook/assets/Code\_XyGoFDuwlg.png)
+![](../../.gitbook/assets/Code\_XyGoFDuwlg.png)

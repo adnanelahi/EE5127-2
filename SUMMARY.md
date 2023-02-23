@@ -14,3 +14,7 @@
   * [Transmit Sensor Data using Gateway Device](lab/azure-iot-hub/transmit-sensor-data-using-gateway-device.md)
   * [Save telemetry data to Azure Blob storage](lab/azure-iot-hub/save-telemetry-data-to-azure-blob-storage.md)
   * [Visualise data in Power BI](lab/azure-iot-hub/visualise-data-in-power-bi.md)
+
+***
+
+* [Python Reference](https://python101.pythonlibrary.org/intro.html)

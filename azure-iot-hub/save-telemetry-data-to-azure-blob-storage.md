@@ -18,9 +18,9 @@ Before defining the Stream Analytics job, you should prepare the input data. The
 3. Once your storage account is created, select the **Containers** tile on the **Overview** pane.
 4. From the **Containers** page, Add **Container** and provide a name for your container, such as _iothubdatacontainer_. Leave the **Public access level** as **Private (no anonymous access)** and select **OK**.
 
-![](.gitbook/assets/rT39oO2eeh.png)
+![](../.gitbook/assets/rT39oO2eeh.png)
 
-![](.gitbook/assets/chrome\_6Xwq8qLtoG.png)
+![](../.gitbook/assets/chrome\_6Xwq8qLtoG.png)
 
 ## Create a Stream Analytics job <a href="#create-a-stream-analytics-job" id="create-a-stream-analytics-job"></a>
 
@@ -84,9 +84,9 @@ In this section, you will configure an IoT Hub device input to the Stream Analyt
 3. In this example, the query reads the data from IoT Hub and copies it to a new file in the blob. Select **Save Query**.
 4. Click **Test Query and** it will send sample data to the IoT Hub and display the sample data.
 
-![](.gitbook/assets/chrome\_flBacCKpZY.png)
+![](../.gitbook/assets/chrome\_flBacCKpZY.png)
 
-![](.gitbook/assets/chrome\_UDYfQIWYMD.png)
+![](../.gitbook/assets/chrome\_UDYfQIWYMD.png)
 
 ## Run the IoT simulator <a href="#run-the-iot-simulator" id="run-the-iot-simulator"></a>
 
@@ -103,7 +103,7 @@ In this section, you will configure an IoT Hub device input to the Stream Analyt
 5. Click **Run**. The output should show the sensor data and messages that are being sent to your IoT Hub.
 6. After few minutes, in the portal, find the storage account (_ee5122iothubstorage_) & the container that you have configured as output for the job (_iothubdatacontainer_). You can now see the output file in the container. The job takes a few minutes to start for the first time, after it is started, it will continue to run as the data arrives.
 
-![](.gitbook/assets/chrome\_DnkVPh3nxC.png)
+![](../.gitbook/assets/chrome\_DnkVPh3nxC.png)
 
 ## Clean up resources <a href="#clean-up-resources" id="clean-up-resources"></a>
 

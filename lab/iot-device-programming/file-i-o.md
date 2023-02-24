@@ -4,6 +4,8 @@ The code will first generate random data and write to a file `data.txt`. The nex
 
 > `with` keyword used in the below code ensures that the opened file is closed at the end of read or write operations.
 
+> Feather Sense may not allow writing of file at runtime. To resolve this, remove file-writing part of the code and manually create `data.txt` file in `CIRCTUITPY` drive.
+
 ```python
 import random
 import time

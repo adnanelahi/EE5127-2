@@ -1,8 +1,8 @@
-# Transmit Sensor Data from Simulated Gateway
+# Transmit Sensor Data using a Simulated Device
 
 ## Overview of Raspberry Pi web simulator <a href="#overview-of-raspberry-pi-web-simulator" id="overview-of-raspberry-pi-web-simulator"></a>
 
-Click the button to launch Raspberry Pi online simulator.
+Click the button to launch the Raspberry Pi online simulator.
 
 > [Start Raspberry Pi simulator](https://azure-samples.github.io/raspberry-pi-web-simulator/build/index.html)
 

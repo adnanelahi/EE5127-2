@@ -4,7 +4,7 @@
 
 1. If you don’t have an Azure subscription, create a [free account](https://azure.microsoft.com/free/?WT.mc\_id=A261C142F) before you begin.
 2. Install [Visual Studio Code](https://code.visualstudio.com/)
-3. Install the [Azure IoT Tools](https://marketplace.visualstudio.com/items?itemName=vsciot-vscode.azure-iot-tools) extension for Visual Studio Code
+3. Install the [Azure IoT ](https://marketplace.visualstudio.com/items?itemName=vsciot-vscode.azure-iot-toolkit)[Hub](https://marketplace.visualstudio.com/items?itemName=vsciot-vscode.azure-iot-toolkit) extension for Visual Studio Code
 
 **Setup Azure IoT Hub through Sign in to Azure**
 

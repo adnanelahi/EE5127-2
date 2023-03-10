@@ -16,69 +16,80 @@ In this quickstart, you send telemetry from a physical Raspberry Pi device throu
 * Download the[ sample Python project](https://github.com/Azure-Samples/azure-iot-samples-python/archive/master.zip) in Raspberry Pi.&#x20;
 * Right click the downloaded archive (.zip) and select **Extract here**
 * Rename the extracted folder _azure-iot-samples-python-master_ to __ azure-iot-samples-python and move it to the _Documents_ folder in Raspberry Pi.
-* Open _azure-iot-samples-python_ folder in VS Code and navigate to **azure-iot-samples-python/iot-hub/Quickstarts/simulated-device/SimulatedDevice.py**.
+* Open _azure-iot-samples-python_ folder in VS Code and navigate to **azure-iot-samples-python/iot-hub/Quickstarts/simulated-device/SimulatedDeviceSync.py**.
 
 ```python
 # Copyright (c) Microsoft. All rights reserved.
 # Licensed under the MIT license. See LICENSE file in the project root for full license information.
-
+import os
 import random
 import time
-
-# Using the Python Device SDK for IoT Hub:
-#   https://github.com/Azure/azure-iot-sdk-python
-# The sample connects to a device-specific MQTT endpoint on your IoT Hub.
 from azure.iot.device import IoTHubDeviceClient, Message
 
-# The device connection string to authenticate the device with your IoT hub.
-# Using the Azure CLI:
+# The device connection authenticates your device to your IoT hub. The connection string for 
+# a device should never be stored in code. For the sake of simplicity we're using an environment 
+# variable here. If you created the environment variable with the IDE running, stop and restart 
+# the IDE to pick up the environment variable.
+#
+# You can use the Azure CLI to find the connection string:
 # az iot hub device-identity show-connection-string --hub-name {YourIoTHubName} --device-id MyNodeDevice --output table
-CONNECTION_STRING = "{Your IoT Hub Device Connection String Here}"
+
+#REPLACE os.getenv("IOTHUB_DEVICE_CONNECTION_STRING") with primary connection string copied from IoT Hub setup process.
+CONNECTION_STRING = os.getenv("IOTHUB_DEVICE_CONNECTION_STRING")
 
 # Define the JSON message to send to IoT Hub.
 TEMPERATURE = 20.0
 HUMIDITY = 60
-ANOTHER = 50
 MSG_TXT = '{{"temperature": {temperature},"humidity": {humidity}}}'
 
-def iothub_client_init():
-    # Create an IoT Hub client
+
+def run_telemetry_sample(client):
+    # This sample will send temperature telemetry every second
+    print("IoT Hub device sending periodic messages")
+
+    client.connect()
+
+    while True:
+        # Build the message with simulated telemetry values.
+        temperature = TEMPERATURE + (random.random() * 15)
+        humidity = HUMIDITY + (random.random() * 20)
+        msg_txt_formatted = MSG_TXT.format(temperature=temperature, humidity=humidity)
+        message = Message(msg_txt_formatted)
+
+        # Add a custom application property to the message.
+        # An IoT hub can filter on these properties without access to the message body.
+        if temperature > 30:
+            message.custom_properties["temperatureAlert"] = "true"
+        else:
+            message.custom_properties["temperatureAlert"] = "false"
+
+        # Send the message.
+        print("Sending message: {}".format(message))
+        client.send_message(message)
+        print("Message successfully sent")
+        time.sleep(10)
+
+
+def main():
+    print("IoT Hub Quickstart #1 - Simulated device")
+    print("Press Ctrl-C to exit")
+
+    # Instantiate the client. Use the same instance of the client for the duration of
+    # your application
     client = IoTHubDeviceClient.create_from_connection_string(CONNECTION_STRING)
-    return client
 
-def iothub_client_telemetry_sample_run():
-
+    # Run Sample
     try:
-        client = iothub_client_init()
-        print ( "IoT Hub device sending periodic messages, press Ctrl-C to exit" )
-
-        while True:
-            # Build the message with simulated telemetry values.
-            temperature = TEMPERATURE + (random.random() * 15)
-            humidity = HUMIDITY + (random.random() * 20)
-            msg_txt_formatted = MSG_TXT.format(temperature=temperature, humidity=humidity)
-            message = Message(msg_txt_formatted)
-
-            # Add a custom application property to the message.
-            # An IoT hub can filter on these properties without access to the message body.
-            if temperature > 30:
-              message.custom_properties["temperatureAlert"] = "true"
-            else:
-              message.custom_properties["temperatureAlert"] = "false"
-
-            # Send the message.
-            print( "Sending message: {}".format(message) )
-            client.send_message(message)
-            print ( "Message successfully sent" )
-            time.sleep(1)
-
+        run_telemetry_sample(client)
     except KeyboardInterrupt:
-        print ( "IoTHubClient sample stopped" )
+        print("IoTHubClient sample stopped by user")
+    finally:
+        # Upon application exit, shut down the client
+        print("Shutting down IoTHubClient")
+        client.shutdown()
 
 if __name__ == '__main__':
-    print ( "IoT Hub Quickstart #1 - Simulated device" )
-    print ( "Press Ctrl-C to exit" )
-    iothub_client_telemetry_sample_run()
+    main()
 ```
 
 * Before you can execute the above file, you need to install **azure.iot.device** using the following command in the terminal. Click Termina > New Terminal in VS Code and run the following command.

@@ -11,6 +11,18 @@ In this quickstart, you send telemetry from a physical Raspberry Pi device throu
 * [A sample Python project](https://github.com/Azure-Samples/azure-iot-samples-python/archive/master.zip).
 * Port 8883 open in your firewall. The device sample in this quickstart uses MQTT protocol, which communicates over port 8883. This port may be blocked in some corporate and educational network environments. For more information and ways to work around this issue, see [Connecting to IoT Hub (MQTT)](https://docs.microsoft.com/en-us/azure/iot-hub/iot-hub-mqtt-support#connecting-to-iot-hub).
 
+## Install Python Library for Azure IoT Device
+
+Install **azure.iot.device** using the following command in the terminal. Click Terminal > New Terminal in VS Code and run the following command.
+
+```python
+pip3 install azure.iot.device
+```
+
+{% hint style="info" %}
+Do not use `sudo` command with `pip3`.
+{% endhint %}
+
 ### Download and organise sample code
 
 * Download the[ sample Python project](https://github.com/Azure-Samples/azure-iot-samples-python/archive/master.zip) in Raspberry Pi.&#x20;
@@ -92,12 +104,7 @@ if __name__ == '__main__':
     main()
 ```
 
-* Before you can execute the above file, you need to install **azure.iot.device** using the following command in the terminal. Click Termina > New Terminal in VS Code and run the following command.
-
-```python
-pip3 install azure.iot.device
-```
-
+*
 * You will see the following output in the terminal.
 
 ![](../../.gitbook/assets/vncviewer\_EdhWaA1agd.png)

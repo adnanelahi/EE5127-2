@@ -29,3 +29,8 @@
 ***
 
 * [Useful Links](useful-links.md)
+
+## Python
+
+* [Python Reference](https://python101.pythonlibrary.org/intro.html)
+* [Upgrading pip](python/upgrading-pip.md)

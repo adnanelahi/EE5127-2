@@ -20,7 +20,9 @@ pip3 install azure.iot.device
 ```
 
 {% hint style="info" %}
-Do not use `sudo` command with `pip3`.
+If there are multiple versions of Python 3 installed on your Raspberry Pi, you will need to specify the specific pip version to install Azure IoT Device Library. Assuming you want to use Python 3.8 for this tutorial, your installation command will be:
+
+`pip3.8 install azure.iot.device`
 {% endhint %}
 
 ### Download and organise sample code
@@ -29,9 +31,9 @@ Do not use `sudo` command with `pip3`.
 * Right click the downloaded archive (.zip) and select **Extract here**
 * Rename the extracted folder _azure-iot-samples-python-master_ to __ azure-iot-samples-python and move it to the _Documents_ folder in Raspberry Pi.
 * Open _azure-iot-samples-python_ folder in VS Code and navigate to **azure-iot-samples-python/iot-hub/Quickstarts/simulated-device/SimulatedDeviceSync.py**.
+* Replace the value of variable, `CONNECTION_STRING`, with the primary connection string copied from [IoT Hub Setup](setup-azure-iot-hub.md) process in `SimulatedDeviceSync.py`.
 
-```python
-# Copyright (c) Microsoft. All rights reserved.
+<pre class="language-python" data-overflow="wrap"><code class="lang-python"># Copyright (c) Microsoft. All rights reserved.
 # Licensed under the MIT license. See LICENSE file in the project root for full license information.
 import os
 import random
@@ -46,8 +48,8 @@ from azure.iot.device import IoTHubDeviceClient, Message
 # You can use the Azure CLI to find the connection string:
 # az iot hub device-identity show-connection-string --hub-name {YourIoTHubName} --device-id MyNodeDevice --output table
 
-#REPLACE os.getenv("IOTHUB_DEVICE_CONNECTION_STRING") with primary connection string copied from IoT Hub setup process.
-CONNECTION_STRING = os.getenv("IOTHUB_DEVICE_CONNECTION_STRING")
+<strong>#REPLACE os.getenv("IOTHUB_DEVICE_CONNECTION_STRING") with primary connection string copied from IoT Hub setup process.
+</strong>CONNECTION_STRING = os.getenv("IOTHUB_DEVICE_CONNECTION_STRING")
 
 # Define the JSON message to send to IoT Hub.
 TEMPERATURE = 20.0
@@ -102,9 +104,9 @@ def main():
 
 if __name__ == '__main__':
     main()
-```
+</code></pre>
 
-*
+* Run&#x20;
 * You will see the following output in the terminal.
 
 ![](../../.gitbook/assets/vncviewer\_EdhWaA1agd.png)

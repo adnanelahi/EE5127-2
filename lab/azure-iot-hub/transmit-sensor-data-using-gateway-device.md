@@ -15,15 +15,10 @@ In this quickstart, you send telemetry from a physical Raspberry Pi device throu
 
 Install **azure.iot.device** using the following command in the terminal. Click Terminal > New Terminal in VS Code and run the following command.
 
-```python
-pip3 install azure.iot.device
-```
+<pre class="language-python"><code class="lang-python"><strong>python3 -m pip install azure.iot.device
+</strong></code></pre>
 
-{% hint style="info" %}
-If there are multiple versions of Python 3 installed on your Raspberry Pi, you will need to specify the specific pip version to install Azure IoT Device Library. Assuming you want to use Python 3.8 for this tutorial, your installation command will be:
-
-`pip3.8 install azure.iot.device`
-{% endhint %}
+Use of `python3` -m option with `pip` command ensures that the correct version of `pip` is used for package installation. In the above command `pip` version corresponding to the default python3 will be used.&#x20;
 
 ### Download and organise sample code
 

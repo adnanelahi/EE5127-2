@@ -1,2 +1,0 @@
-# Troubleshooting Raspberry Pi
-

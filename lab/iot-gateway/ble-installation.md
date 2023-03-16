@@ -6,8 +6,6 @@ For BLE communication between IoT Gateway and IoT Device (Feather nRF52840 Sense
 python3 -V
 ```
 
-
-
 ```bash
 export PATH=$PATH:/home/$USER/.local/bin
 ```

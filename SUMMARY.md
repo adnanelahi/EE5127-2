@@ -28,6 +28,7 @@
   * [Create an ML Pipeline](lab/azure-ml-studio/create-an-ml-pipeline/README.md)
     * [Create Compute Instance](lab/azure-ml-studio/create-an-ml-pipeline/create-compute-instance.md)
   * [Deploy an ML Model](lab/azure-ml-studio/deploy-an-ml-model.md)
+  * [Integrate ML Model with IoT Hub](lab/azure-ml-studio/integrate-ml-model-with-iot-hub.md)
 
 ***
 

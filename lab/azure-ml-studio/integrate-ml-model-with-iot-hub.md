@@ -7,17 +7,16 @@ You can add Azure Machine Learning functions to your Stream Analytics job direct
 #### Azure portal <a href="#azure-portal" id="azure-portal"></a>
 
 1. Navigate to your Stream Analytics job in the Azure portal, and select **Functions** under **Job topology**. Then, select **Azure Machine Learning Service** from the **+ Add** dropdown menu.
-2. Fill in the **Azure Machine Learning Service function** form with the following property values:
+2. Fill in the **Azure Machine Learning Service function** form.
+3.
 
-The following table describes the properties of Azure Machine Learning Service functions in Stream Analytics that need to be reviewed or filled in. Other properties can be left at default values.
+    <figure><img src="../../.gitbook/assets/msedge_hGUBf4i8TL.gif" alt=""><figcaption></figcaption></figure>
+4. Enter "Function Alias" and select "Provide Azure ML Service settings manually".
+5. Get the value of the Scoring URL and Key from the Endpoint created in the ML workspace and enter in the Soring URI and Key field. This is available under Endpoints -> Consume in ML Workspace.
+6.
 
-| Property                         | Description                                                                                                                                                                                                              |
-| -------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| Function alias                   | Enter a name to invoke the function in your query.                                                                                                                                                                       |
-| Subscription                     | Your Azure subscription.                                                                                                                                                                                                 |
-| Azure Machine Learning workspace | The Azure Machine Learning workspace you used to deploy your model as a web service.                                                                                                                                     |
-| Endpoint                         | The web service hosting your model.                                                                                                                                                                                      |
-| Function signature               | The signature of your web service is inferred automatically. If your function signature fails to load, check that you have provided sample input and output in your scoring script to automatically generate the schema. |
+    <figure><img src="../../.gitbook/assets/0tT0Dtinw9.png" alt=""><figcaption></figcaption></figure>
+7. Once the Scoring URI and Key are entered, the function signature automatically loads. If your function signature fails to load, there could be a problem with the creation of the Endpoint in the ML workspace. Revisit the Endpoint creation process and ensure that Endpoint is working by using the Test option in Endpoints.
 
 ### Calling machine learning endpoint from your query <a href="#calling-machine-learning-endpoint-from-your-query" id="calling-machine-learning-endpoint-from-your-query"></a>
 

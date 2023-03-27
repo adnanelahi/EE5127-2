@@ -17,6 +17,7 @@ You can add Azure Machine Learning functions to your Stream Analytics job direct
 
     <figure><img src="../../.gitbook/assets/0tT0Dtinw9.png" alt=""><figcaption></figcaption></figure>
 7. Once the Scoring URI and Key are entered, the function signature automatically loads. If your function signature fails to load, there could be a problem with the creation of the Endpoint in the ML workspace. Revisit the Endpoint creation process and ensure that Endpoint is working by using the Test option in Endpoints.
+8. After entering all details press Save and after a while you should see a successful connection notification.
 
 ### Calling machine learning endpoint from your query <a href="#calling-machine-learning-endpoint-from-your-query" id="calling-machine-learning-endpoint-from-your-query"></a>
 

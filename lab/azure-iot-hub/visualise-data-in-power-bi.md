@@ -21,6 +21,10 @@ You learn how to visualize real-time sensor data that your Azure IoT hub receive
   * A client application that sends messages to your Azure IoT hub.
 * A Power BI account. ([Try Power BI for free](https://powerbi.microsoft.com/))
 
+### Video Tutorial
+
+[Visualise Streaming Sensor Data in Power BI](https://nuigalwayie-my.sharepoint.com/:v:/r/personal/0120085s\_nuigalway\_ie/Documents/Creating%20Power%20BI%20Dashboard%20to%20Visualise%20Streaming%20Sensor%20Data.mov?csf=1\&web=1\&e=2feIX7)
+
 ## Create, configure, and run a Stream Analytics job <a href="#create-configure-and-run-a-stream-analytics-job" id="create-configure-and-run-a-stream-analytics-job"></a>
 
 ### Create a Stream Analytics job <a href="#create-a-stream-analytics-job" id="create-a-stream-analytics-job"></a>

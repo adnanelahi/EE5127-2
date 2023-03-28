@@ -105,18 +105,20 @@ FormattedOutput AS (
         ModelOutput
 )
 
--- Select everything from formatted output and send it to iothuboutputstorage
-SELECT
-    *
-INTO
-    iothuboutputstorage002
-FROM
-    FormattedOutput
--- Select everythong from formatted output and send it to iothubtopowerbi
+-- Select everything from the formatted output and send it to iothubtopowerbi
 SELECT
     *
 INTO
     iothubtopowerbi
+FROM
+    FormattedOutput
+
+-- Select everything from the formatted output and send it to iothuboutputstorage
+-- Use this only if needed to store the data. Not needed for Power BI visualisation 
+SELECT
+    *
+INTO
+    iothuboutputstorage002
 FROM
     FormattedOutput
 

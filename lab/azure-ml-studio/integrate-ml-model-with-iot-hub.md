@@ -52,3 +52,85 @@ FROM
 ```
 
 If your input data sent to the ML UDF is inconsistent with the expected schema, the endpoint will return a response with error code 400, which will cause your Stream Analytics job to go to a failed state. [Demo video from Microsoft](https://www.microsoft.com/en-us/videoplayer/embed/RE4RMir?postJsllMsg=true).
+
+### Video Tutorial
+
+[Integrating ML Model with IoT Hub and Power BI](https://nuigalwayie-my.sharepoint.com/:v:/r/personal/0120085s\_nuigalway\_ie/Documents/Integrate%20ML%20Model%20with%20IoT%20Hub%20and%20Power%20BI.mp4?csf=1\&web=1\&e=95MfY3)
+
+{% hint style="info" %}
+Query and Javascript UDF used in the video are given below.
+{% endhint %}
+
+#### Query
+
+```sql
+-- Select desired variables from the data that is being sent to the IoT Hub
+-- Selected variables will get stored in the temporary storage called InputData
+-- In this example two variables are being selected
+WITH InputData AS (
+    SELECT
+        temperature,
+        humidity
+    FROM
+        inputfromiothub002 -- Data is coming into this IoT Hub
+),
+
+-- Now take variables stored in InputData and run pass these variables to a function
+-- udf.CreateJSONObjet function converts data into JSON format that the model Endpoint is expecting
+-- Result will be stored as OutputData
+OutputData AS (
+    SELECT
+        udf.CreateJSONObject(temperature, humidity) AS data -- Retuns JSON string as data variable
+    FROM
+        InputData
+),
+
+-- Select JSON data from OutputData and pass it on to the machine learning model endpoint
+-- The model will return result that will contain multiple parameters
+ModelOutput AS (
+    SELECT
+        udf.weathermodel(OutputData.data) AS result
+    FROM
+        OutputData
+),
+
+-- Extract desired parameters from the result of model store as FormattedOutput
+FormattedOutput AS (
+    SELECT
+        System.Timestamp time,
+        CAST(result.[temperature] AS FLOAT) AS temperature,
+        CAST(result.[humidity] AS FLOAT) AS humidity,
+        CAST(result.[Scored Probabilities] AS FLOAT) AS [probabilities of rain]
+    FROM
+        ModelOutput
+)
+
+-- Select everything from formatted output and send it to iothuboutputstorage
+SELECT
+    *
+INTO
+    iothuboutputstorage002
+FROM
+    FormattedOutput
+-- Select everythong from formatted output and send it to iothubtopowerbi
+SELECT
+    *
+INTO
+    iothubtopowerbi
+FROM
+    FormattedOutput
+
+```
+
+#### Javascript UDF
+
+```javascript
+// Sample UDF which returns sum of two values.
+function CreateRecord(temperature, humidity) {
+    return {
+    " temperature": temperature,
+    " humidity": humidity
+  };
+}
+
+```

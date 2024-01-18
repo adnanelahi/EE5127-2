@@ -81,3 +81,7 @@ To that end, most CircuitPython programs involve some kind of loop, infinite or 
 ### What if I Don't Have the Loop?
 
 If you don't have the loop, the code will run to the end and exit. This can lead to some unexpected behavior in simple programs like this since the "exit" also resets the state of the hardware.&#x20;
+
+### Acknowledgement
+
+This page is an edited version of [Exploring Your First CircuitPython Program](https://learn.adafruit.com/welcome-to-circuitpython/exploring-your-first-circuitpython-program) published by Kattni Rembor on the Adafruit website.

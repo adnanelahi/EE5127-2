@@ -87,7 +87,7 @@
 
 ![](https://ajeuwbhvhr.cloudimg.io/colony-recorder.s3.amazonaws.com/files/2023-03-08/ef9131a4-e16e-4d53-bf16-504c8dbea23c/ascreenshot.jpeg?tl\_px=224,193\&br\_px=970,613\&sharp=0.8\&width=560\&wat\_scale=50\&wat=1\&wat\_opacity=0.7\&wat\_gravity=northwest\&wat\_url=https://colony-labs-public.s3.us-east-2.amazonaws.com/images/watermarks/watermark\_default.png\&wat\_pad=262,238)
 
-20. Once the job has been submitted. Select "Pipelines" in the left pane of the Azure ML Studio and select the submitted pipeline under the "Pipeline jobs" tab. ****&#x20;
+20. Once the job has been submitted. Select "Pipelines" in the left pane of the Azure ML Studio and select the submitted pipeline under the "Pipeline jobs" tab.&#x20;
 21. Right click "Scored dataset" and select "Preview data"
 
 ![](https://ajeuwbhvhr.cloudimg.io/colony-recorder.s3.amazonaws.com/files/2023-03-08/414736b9-fee6-4d56-98d3-0da1914c9936/ascreenshot.jpeg?tl\_px=273,193\&br\_px=1019,613\&sharp=0.8\&width=560\&wat\_scale=50\&wat=1\&wat\_opacity=0.7\&wat\_gravity=northwest\&wat\_url=https://colony-labs-public.s3.us-east-2.amazonaws.com/images/watermarks/watermark\_default.png\&wat\_pad=269,219)

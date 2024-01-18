@@ -5,7 +5,7 @@
 ## Lab
 
 * [IoT Device Programming](lab/iot-device-programming/README.md)
-  * [CircuitPython Installation](lab/iot-device-programming/circuitpython-installation.md)
+  * [Install CircuitPython!](lab/iot-device-programming/install-circuitpython.md)
   * [File I/O](lab/iot-device-programming/file-i-o.md)
 * [IoT Gateway](lab/iot-gateway/README.md)
   * [Setting up Raspberry Pi](lab/iot-gateway/setting-up-raspberry-pi/README.md)

@@ -24,7 +24,7 @@ Use of `python3` -m option with `pip` command ensures that the correct version o
 
 * Download the[ sample Python project](https://github.com/Azure-Samples/azure-iot-samples-python/archive/master.zip) in Raspberry Pi.&#x20;
 * Right click the downloaded archive (.zip) and select **Extract here**
-* Rename the extracted folder _azure-iot-samples-python-master_ to __ azure-iot-samples-python and move it to the _Documents_ folder in Raspberry Pi.
+* Rename the extracted folder _azure-iot-samples-python-master_ to azure-iot-samples-python and move it to the _Documents_ folder in Raspberry Pi.
 * Open _azure-iot-samples-python_ folder in VS Code and navigate to **azure-iot-samples-python/iot-hub/Quickstarts/simulated-device/SimulatedDeviceSync.py**.
 * Replace the value of variable, `CONNECTION_STRING`, with the primary connection string copied from [IoT Hub Setup](setup-azure-iot-hub.md) process in `SimulatedDeviceSync.py`.
 

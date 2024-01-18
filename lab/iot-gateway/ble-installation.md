@@ -26,4 +26,3 @@ python3 -m pip install --upgrade adafruit-blinka-bleio adafruit-circuitpython-bl
 sudo reboot
 ```
 
-``

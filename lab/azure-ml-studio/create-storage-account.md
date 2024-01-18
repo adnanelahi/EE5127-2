@@ -26,7 +26,7 @@ description: >-
 
 ![](https://ajeuwbhvhr.cloudimg.io/colony-recorder.s3.amazonaws.com/files/2023-03-09/b0cb2b71-523c-4fcc-8581-c54d05c9bd16/File.jpeg?tl\_px=0,193\&br\_px=746,613\&sharp=0.8\&width=560\&wat\_scale=50\&wat=1\&wat\_opacity=0.7\&wat\_gravity=northwest\&wat\_url=https://colony-labs-public.s3.us-east-2.amazonaws.com/images/watermarks/watermark\_default.png\&wat\_pad=51,271)
 
-6. &#x20;**** Next, go to the created Storage Account in Azure Portal and Click "Containers"
+6. &#x20;Next, go to the created Storage Account in Azure Portal and Click "Containers"
 
 ![](https://ajeuwbhvhr.cloudimg.io/colony-recorder.s3.amazonaws.com/files/2023-03-09/eef4abf2-40a2-4236-a157-f51399ed3205/File.jpeg?tl\_px=0,193\&br\_px=746,613\&sharp=0.8\&width=560\&wat\_scale=50\&wat=1\&wat\_opacity=0.7\&wat\_gravity=northwest\&wat\_url=https://colony-labs-public.s3.us-east-2.amazonaws.com/images/watermarks/watermark\_default.png\&wat\_pad=55,207)
 

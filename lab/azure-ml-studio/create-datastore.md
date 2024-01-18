@@ -30,4 +30,3 @@ description: >-
 
 ![](https://ajeuwbhvhr.cloudimg.io/colony-recorder.s3.amazonaws.com/files/2023-03-09/968ed7ef-b67d-482e-ab73-e28901467022/File.jpeg?tl\_px=202,193\&br\_px=948,613\&sharp=0.8\&width=560\&wat\_scale=50\&wat=1\&wat\_opacity=0.7\&wat\_gravity=northwest\&wat\_url=https://colony-labs-public.s3.us-east-2.amazonaws.com/images/watermarks/watermark\_default.png\&wat\_pad=262,230)
 
-****

@@ -40,3 +40,7 @@ The CircuitPython code on your board detects when the files are changed or writt
 {% endhint %}
 
 It is a good idea to save the workspace in `CIRCUITPY` drive using `File > Save Workspace as` option. You can give any name to the workspace or simply `feather-sense.code-workspace`.
+
+### References and Acknowledgement
+
+This page is an edited version of [Creating and Editing Code](https://learn.adafruit.com/welcome-to-circuitpython/creating-and-editing-code) published by Kattni Rembor in the [Welcome to CircuitPython](https://learn.adafruit.com/welcome-to-circuitpython/overview) guide on the Adafruit website.

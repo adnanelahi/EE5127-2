@@ -12,7 +12,7 @@ Always back up your code before installing or updating CircuitPython!
 
 **ALWAYS BACKUP YOUR CODE BEFORE INSTALLING OR UPDATING CIRCUITPYTHON.**&#x20;
 
-[Download the latest CircuitPython](https://adafruit-circuit-python.s3.amazonaws.com/bin/feather\_bluefruit\_sense/en\_GB/adafruit-circuitpython-feather\_bluefruit\_sense-en\_GB-8.2.1.uf2) for the Feather Sense nRF52854 board.
+[Download the latest CircuitPython](https://adafruit-circuit-python.s3.amazonaws.com/bin/feather\_bluefruit\_sense/en\_GB/adafruit-circuitpython-feather\_bluefruit\_sense-en\_GB-8.1.0.uf2) for the Feather Sense nRF52854 board.
 
 Next, you'll want to plug in your board using a known-good USB data cable. **Make sure the USB cable is a data cable!** Some cables work only for charging and can lead to a lot of frustration.
 

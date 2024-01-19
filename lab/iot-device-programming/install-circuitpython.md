@@ -57,3 +57,7 @@ When you plug a CircuitPython board into your computer, your computer will see t
 Normally, when you drag a file to a mounted USB drive, the file copies to the drive and then is able to be seen in your file explorer. However, when you drag the CircuitPython UF2 file to the **boot** drive, it seems to disappear, and the drive disconnects. This is normal! The UF2 is essentially an installer file, and does not simply sit on the drive, but installs CircuitPython if the board is in bootloader mode (i.e. the **boot** drive).
 
 You will be able to copy other files to the **boot** drive but they will not run or be accessible to CircuitPython. So make sure that once you're done installing CircuitPython, that you're dragging to and editing files on the **CIRCUITPY** drive!
+
+### References and Acknowledgement
+
+This page is an edited version of [Installing CircuitPython](https://learn.adafruit.com/welcome-to-circuitpython/installing-circuitpython) published by Kattni Rembor in the [Welcome to CircuitPython](https://learn.adafruit.com/welcome-to-circuitpython/overview) guide on the Adafruit website.

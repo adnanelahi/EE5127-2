@@ -12,7 +12,7 @@ Firstly, [download the CircuitPython library bundle](https://circuitpython.org/l
 
 The bundle downloads as a .zip file. Extract the file anywhere on your PC/Laptop. Open the resulting folder.
 
-<figure><img src="../../../.gitbook/assets/image (9).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (9) (1).png" alt=""><figcaption></figcaption></figure>
 
 Open the **lib** folder found within.
 

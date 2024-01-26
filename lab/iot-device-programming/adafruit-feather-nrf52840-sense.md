@@ -1,21 +1,21 @@
 # Adafruit Feather nRF52840 Sense
 
-<figure><img src="../../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (16).png" alt=""><figcaption></figcaption></figure>
 
 The Feather nRF52840 Sense is full of all kinds of goodies. Let's take a look!
 
-<figure><img src="../../.gitbook/assets/image (4).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (18).png" alt=""><figcaption></figcaption></figure>
 
 ### Microcontroller in Adafruit nRF52840 Feather Sense Board
 
-<figure><img src="../../.gitbook/assets/image (5).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (19).png" alt=""><figcaption></figcaption></figure>
 
 * **Nordic nRF52840 Bluetooth LE processor** - 1 MB of Flash, 256KB RAM, 64 MHz Cortex M4 processor.
 * **QSPI flash** - 2MB of internal flash storage for datalogging or CircuitPython code. QSPI requires 6 pins, which are not broken out on the 0.1" pin headers to avoid conflicts. QSPI is neat because it allows you to have 4 data in/out lines instead of just SPI's single line in and single line out. This means that QSPI is _at least_ 4 times faster. But in reality is at least 10x faster because you can clock the QSPI peripheral much faster than a plain SPI peripheral.
 
 ### Power Pins
 
-<figure><img src="../../.gitbook/assets/image (7).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (21).png" alt=""><figcaption></figcaption></figure>
 
 * **3V**: This pin is connected to the output of the on board 3.3V regulator. It can be used to supply 3.3V power to external sensors, breakouts or FeatherWings.
 * **LIPO Input (Bat)**: This is the voltage supply off the optional LIPO cell that can be connected via the JST PH connector. It is nominally \~3.5-4.2V.
@@ -24,7 +24,7 @@ The Feather nRF52840 Sense is full of all kinds of goodies. Let's take a look!
 
 ### Analog Pins
 
-<figure><img src="../../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (15).png" alt=""><figcaption></figcaption></figure>
 
 The **6** available analog inputs (**A0 .. A5**) can be configured to generate 8, 10 or 12-bit data (or 14-bits with over-sampling), at speeds up to 200kHz (depending on the bit-width of the values generated), based on either an internal 0.6V reference or the external supply.
 
@@ -47,11 +47,11 @@ Unlike digital functions, which can be remapped to any GPIO/digital pin, the ADC
 
 ### PWM Outputs and I2C Pins
 
-<figure><img src="../../.gitbook/assets/image (8).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (22).png" alt=""><figcaption></figcaption></figure>
 
 **I2C Pins**
 
-<figure><img src="../../.gitbook/assets/image (9).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (23).png" alt=""><figcaption></figcaption></figure>
 
 I2C pins on the nRF52840 have 4.7K pullup resistors installed and are connected to all-but-the-microphone sensors. You can connect any other sensors as long as there is not an I2C address collision
 

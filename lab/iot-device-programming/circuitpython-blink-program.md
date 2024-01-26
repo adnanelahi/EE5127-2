@@ -29,7 +29,9 @@ while True:
     time.sleep(0.5)
 ```
 
-Save the `code.py` file on your `CIRCUITPY` drive. The little LED on the board should now be blinking as soon as you save the file.
+<figure><img src="../../.gitbook/assets/image (13).png" alt=""><figcaption></figcaption></figure>
+
+Save the `code.py` file on your `CIRCUITPY` drive. The little LED on the board should now be blinking as soon as you save the file provided that the Feahter board is connected and its name, Adafruit Industries LLC: Feather Bluefruit Sense, appears in the bottom right corner of VSCode.
 
 {% hint style="info" %}
 Note that under the `while True:` line, the next four lines begin with four spaces to indent them, and they're indented exactly the same amount. All the lines before that have no spaces before the text.

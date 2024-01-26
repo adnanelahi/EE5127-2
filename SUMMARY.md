@@ -5,9 +5,11 @@
 ## Lab
 
 * [IoT Device Programming](lab/iot-device-programming/README.md)
+  * [Adafruit Feather nRF52840 Sense](lab/iot-device-programming/adafruit-feather-nrf52840-sense.md)
   * [Install CircuitPython!](lab/iot-device-programming/install-circuitpython.md)
   * [CircuitPython Blink Program](lab/iot-device-programming/circuitpython-blink-program.md)
   * [CircuitPython Basics](lab/iot-device-programming/circuitpython-basics.md)
+  * [Feather Onboard Sensors](lab/iot-device-programming/feather-onboard-sensors.md)
   * [File I/O](lab/iot-device-programming/file-i-o.md)
 * [IoT Gateway](lab/iot-gateway/README.md)
   * [Setting up Raspberry Pi](lab/iot-gateway/setting-up-raspberry-pi/README.md)

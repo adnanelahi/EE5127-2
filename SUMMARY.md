@@ -16,6 +16,7 @@
   * [Sensor Data Acquisition](lab/iot-device-programming/sensor-data-acquisition/README.md)
     * [Install Libraries](lab/iot-device-programming/sensor-data-acquisition/install-libraries.md)
     * [Sensor Demo](lab/iot-device-programming/sensor-data-acquisition/sensor-demo.md)
+  * [BLE Connectivity](lab/iot-device-programming/ble-connectivity.md)
   * [File I/O](lab/iot-device-programming/file-i-o.md)
 * [IoT Gateway](lab/iot-gateway/README.md)
   * [Setting up Raspberry Pi](lab/iot-gateway/setting-up-raspberry-pi/README.md)

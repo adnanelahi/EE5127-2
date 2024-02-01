@@ -12,7 +12,7 @@ To see all the available board-specific objects and pins for your board, you can
 
 Here is the output for the Feather Sense board. **If you have a different board, this list might vary, based on the board.**
 
-<figure><img src="../../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (5).png" alt=""><figcaption></figcaption></figure>
 
 You can use the pin names on the physical board, regardless of whether they seem to be specific to a certain protocol. For example, you do not _have_ to use the SDA pin for I2C - you can use it for a button or LED.
 

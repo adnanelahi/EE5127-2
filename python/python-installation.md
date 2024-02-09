@@ -1,5 +1,7 @@
 # Python Installation
 
+Use the following instructions to install an older version of Python on Raspberry Pi OS.
+
 Open Menu -> Programming -> Visual Studio Code and create a file with the following script. Save the file in Documents with the name`install_python.sh`
 
 {% code overflow="wrap" %}

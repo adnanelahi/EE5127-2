@@ -20,7 +20,6 @@
   * [File I/O](lab/iot-device-programming/file-i-o.md)
 * [IoT Gateway](lab/iot-gateway/README.md)
   * [Setting up Raspberry Pi](lab/iot-gateway/setting-up-raspberry-pi/README.md)
-    * [Python Installation](lab/iot-gateway/setting-up-raspberry-pi/python-installation.md)
     * [Troubleshooting](lab/iot-gateway/setting-up-raspberry-pi/troubleshooting.md)
   * [BLE Installation](lab/iot-gateway/ble-installation.md)
 * [Azure IoT Hub](lab/azure-iot-hub/README.md)
@@ -49,3 +48,4 @@
 
 * [Python Reference](https://python101.pythonlibrary.org/intro.html)
 * [Upgrading pip](python/upgrading-pip.md)
+* [Python Installation](python/python-installation.md)

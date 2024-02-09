@@ -20,7 +20,7 @@
   * [File I/O](lab/iot-device-programming/file-i-o.md)
 * [IoT Gateway](lab/iot-gateway/README.md)
   * [Setting up Raspberry Pi](lab/iot-gateway/setting-up-raspberry-pi.md)
-  * [BLE Installation](lab/iot-gateway/ble-installation.md)
+  * [BLE Communication](lab/iot-gateway/ble-communication.md)
 * [Azure IoT Hub](lab/azure-iot-hub/README.md)
   * [Setup Azure IoT Hub](lab/azure-iot-hub/setup-azure-iot-hub.md)
   * [Transmit Sensor Data using a Simulated Device](lab/azure-iot-hub/transmit-sensor-data-using-a-simulated-device.md)

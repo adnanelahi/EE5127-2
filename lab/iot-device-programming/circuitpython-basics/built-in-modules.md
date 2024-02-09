@@ -6,4 +6,4 @@ There are two options for this. You can check the [support matrix](https://circu
 
 Plug in your board, connect to the serial console and enter the REPL. Type the following command.
 
-<figure><img src="../../../.gitbook/assets/image (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (1) (1) (1).png" alt=""><figcaption></figcaption></figure>

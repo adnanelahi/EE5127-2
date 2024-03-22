@@ -4,7 +4,7 @@
 
 **Magnetometer: LIS3MDL** - Sense the magnetic fields that surround us with this handy triple-axis magnetometer (compass) module. Magnetometers can sense where the strongest magnetic force is coming from, generally used to detect magnetic north, but can also be used for measuring magnetic fields. This sensor tends to be paired with a 6-DoF (degree of freedom) accelerometer/gyroscope to create a 9-DoF inertial measurement unit that can detect its orientation in real-space thanks to Earth's stable magnetic field. **Sensor is I2C on standard pins, address 0x1C**
 
-<figure><img src="../../.gitbook/assets/image (2) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (2) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 **Gyro + Accel: y**our Feather Sense may have either an **LSM6DS33** or an **LSM6DS3TR-C**&#x20;
 
@@ -12,25 +12,25 @@ These sensors are 6-DoF IMU accelerometer + gyroscope. The 3-axis accelerometer 
 
 As of January 10, 2024 - We have replaced the discontinued LSM6DS33 with an LSM6DS3TR-C 6 DoF sensor. The performance is improved however new firmware libraries will need to be used in order to read the accelerometer and gyroscope.
 
-<figure><img src="../../.gitbook/assets/image (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 **Light + Gesture + Proximity: APDS9960** - Detect simple gestures (left to right, right to left, up to down, down to up are currently supported), return the amount of red, blue, green, and clear light, or return how close an object is to the front of the sensor. This sensor has an integrated IR LED and driver, along with four directional photodiodes that sense reflected IR energy from the LED. Since there are four IR sensors, you can measure the changes in light reflectance at each of the cardinal locations over time and turn those changes into gestures. **Sensor is I2C on standard pins, address 0x39 and IRQ pin on digital pin 36**
 
-<figure><img src="../../.gitbook/assets/image (3) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (3) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 **Humidity: SHT30** - This sensor has an excellent ±2% relative humidity and ±0.5°C accuracy for most uses. **Sensor is I2C on standard pins, address 0x44**
 
-<figure><img src="../../.gitbook/assets/image (4) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (4) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 **Temp + Pressure: BMP280** - This sensor is a precision sensing solution for measuring barometric pressure with ±1 hPa absolute accuracy, and temperature with ±1.0°C accuracy. Because pressure changes with altitude, and the pressure measurements are so good, you can also use it as an altimeter with ±1 meter accuracy. It has a low altitude noise of 0.25m and a fast conversion time. **Sensor is I2C on standard pins, address 0x77**
 
-<figure><img src="../../.gitbook/assets/image (5) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (5) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 **PDM Microphone sound sensor: MP34DT01-M** - PDM sound sensor. In CircuitPython, `board.MICROPHONE_DATA` is PDM data, and `board.MICROPHONE_CLOCK` is PDM clock. In Arduino, `D34` is PDM data, and `D35` is PDM clock.
 
 ### USB and Battery
 
-<figure><img src="../../.gitbook/assets/image (6) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (6) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 * **USB Micro** - This USB port is used for programming and/or powering the Feather Sense. It is a standard USB Micro connector.
 * **Battery** - 2-pin JST PH connector for a battery. Power the Feather Sense from any 3V-6V power source, as it has internal regulator and protection diodes. You can also charge LiPoly batteries plugged into this connector using USB power.
@@ -39,7 +39,7 @@ Check that the batteries you are using are the the same as Adafruit polarity. Wr
 
 ### Buttons
 
-<figure><img src="../../.gitbook/assets/image (7) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (7) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 * **Reset button** - The button on the left next to the USB connector resets the board. Press once to reset. Quickly press twice to enter the bootloader.
 * **User button** - The button on the right is both usable by the bootloader and user-controllable. Address it in code using `board.SWITCH` in CircuitPython and `D7` in Arduino.

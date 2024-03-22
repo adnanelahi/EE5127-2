@@ -8,15 +8,15 @@ Download the latest 32-bit version of [Raspberry Pi OS with Desktop](https://www
 
 Next, download and install [Raspberry Pi Imager](https://www.raspberrypi.com/software/) on your laptop.
 
-<figure><img src="../../.gitbook/assets/image.png" alt="" width="563"><figcaption><p>Raspberry Pi Imager</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (7).png" alt="" width="563"><figcaption><p>Raspberry Pi Imager</p></figcaption></figure>
 
 Choose your Raspberry Pi board after clicking on the `Choose Device` option.
 
-<figure><img src="../../.gitbook/assets/image (1).png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1) (1).png" alt="" width="563"><figcaption></figcaption></figure>
 
 Next, click on `Choose OS` option and scroll through the list of operating systems until you find the "Use custom" option towards the end of the list.
 
-<figure><img src="../../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (2) (1).png" alt=""><figcaption></figcaption></figure>
 
 Click on the "Use custom" option and choose the `*.img.xz` file.
 

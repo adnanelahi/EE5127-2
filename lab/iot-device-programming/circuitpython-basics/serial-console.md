@@ -20,15 +20,15 @@ The serial console requires an editor that has a built-in terminal, or a separat
 
 CircuitPython extension in VS Code comes with a Serial Console. Every time VS Code is restarted, the CircuitPython extension reactivates and opens Circuit Python Serial Monitor in the VS Code Terminal. If Terminal is not showing up, Click View in the VS Code menu and select Terminal.
 
-<figure><img src="../../../.gitbook/assets/image (2) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (2) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 Click on the little icon circled in red in the below image, which should allow you to select COM port to which the Feather Sense board is connected.
 
-<figure><img src="../../../.gitbook/assets/image (3) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (3) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 Once connected you should see COM port in place of connection icon at the bottom right of the VS Code window as shown in the below image. Update code as below and Serial Console should show the output.
 
-<figure><img src="../../../.gitbook/assets/image (4) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (4) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 ### The REPL
 
@@ -42,11 +42,11 @@ If there is code running, in this case code measuring distance, it will stop and
 
 The `Traceback (most recent call last):` is telling you the last thing your board was doing before you pressed Ctrl + C and interrupted it. The `KeyboardInterrupt` is you pressing CTRL+C. This information can be handy when troubleshooting, but for now, don't worry about it. Just note that it is expected behavior.
 
-<figure><img src="../../../.gitbook/assets/image (5) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (5) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 Once you press a key you'll see a `>>>` prompt welcoming you to the REPL!
 
-<figure><img src="../../../.gitbook/assets/image (6).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (6) (1).png" alt=""><figcaption></figcaption></figure>
 
 ### Interacting with the REPL
 
@@ -54,7 +54,7 @@ From this prompt you can run all sorts of commands and code. The first thing you
 
 Type `help()` next to the prompt in the REPL and press enter.
 
-<figure><img src="../../../.gitbook/assets/image (7).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (7) (1).png" alt=""><figcaption></figcaption></figure>
 
 You should see the following message.
 

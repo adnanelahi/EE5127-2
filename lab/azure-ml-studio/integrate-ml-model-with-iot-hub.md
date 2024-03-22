@@ -55,7 +55,7 @@ If your input data sent to the ML UDF is inconsistent with the expected schema, 
 
 ### Video Tutorial
 
-[Integrating ML Model with IoT Hub and Power BI](https://nuigalwayie-my.sharepoint.com/personal/0120085s\_universityofgalway\_ie/\_layouts/15/stream.aspx?id=%2Fpersonal%2F0120085s%5Funiversityofgalway%5Fie%2FDocuments%2FIntegrate%20ML%20Model%20with%20IoT%20Hub%20and%20Power%20BI%2Emp4\&referrer=StreamWebApp%2EWeb\&referrerScenario=AddressBarCopied%2Eview)
+[Integrating ML Model with IoT Hub and Power BI](https://nuigalwayie-my.sharepoint.com/:v:/g/personal/0120085s\_universityofgalway\_ie/EVbM\_DUWjwBJuRu6Kf6B\_jABOphV-P\_tbVvuuc1ssegXFQ?e=qTh8PI)
 
 {% hint style="info" %}
 Query and Javascript UDF used in the video are given below.

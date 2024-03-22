@@ -37,7 +37,7 @@ There are multiple ways to deploy a model in Azure Machine Learning. One of the 
 
 <figure><img src="../../.gitbook/assets/Screenshot 2024-03-22 013704.png" alt=""><figcaption></figcaption></figure>
 
-13. After completing the above steps, go back to the inference pipeline and complete the Deploy dialogue box as shown in Step 6. Creation of the endpoint may take a while. The endpoint will be **Transitioning** while it is being created.&#x20;
+13. After completing the above steps, go back to the inference pipeline and complete the Deploy dialogue box as shown in Step 6. Creation of the endpoint may take a while. The endpoint will be **Transitioning** while it is being created. Wait until the **Deployment state** of the endpoint changes from **Transitioning** to **Healthy**.
 
 #### Test the real-time endpoint <a href="#test-the-real-time-endpoint" id="test-the-real-time-endpoint"></a>
 

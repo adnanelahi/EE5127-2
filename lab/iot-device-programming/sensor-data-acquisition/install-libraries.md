@@ -6,8 +6,6 @@ Follow these steps to get the necessary libraries installed.
 
 ### Installing CircuitPython Libraries on your Feather Sense
 
-
-
 Firstly, [download the CircuitPython library bundle](https://circuitpython.org/libraries) that matches your version of CircuitPython from CircuitPython.org.&#x20;
 
 The bundle downloads as a .zip file. Extract the file anywhere on your PC/Laptop. Open the resulting folder.
@@ -36,3 +34,19 @@ Copy the following folders and files from the bundle **lib** folder to the **lib
 Your **lib** folder should look like the image below. These libraries will let you run the demo sensor data acquisition program.
 
 <figure><img src="../../../.gitbook/assets/image (12).png" alt=""><figcaption></figcaption></figure>
+
+
+
+### Libraries Docs
+
+[LIS3MDL](https://docs.circuitpython.org/projects/lis3mdl/en/latest/)\
+[LSM6DS](https://docs.circuitpython.org/projects/lsm6dsox/en/latest/)\
+[BMP280](https://docs.circuitpython.org/projects/bmp280/en/latest/)\
+[Neopixel](https://docs.circuitpython.org/projects/neopixel/en/latest/)\
+[APDS9960](https://docs.circuitpython.org/projects/apds9960/en/latest/)\
+[SHT31D](https://docs.circuitpython.org/projects/sht31d/en/latest/)\
+
+
+\
+
+

@@ -2,7 +2,7 @@
 
 ## **Tilt-Based Interaction**
 
-**Objective:** Use the onboard accelerometer (LSM6DS) to detect tilting in different directions and trigger corresponding actions.
+**Objective:** Use the onboard Gyroscope (LSM6DS33) to detect tilting in different directions and trigger corresponding actions.
 
 1. Read acceleration values.
 2. Define threshold values to detect tilts in the X and Y directions.
@@ -48,7 +48,7 @@
 3. Print "Clap detected!" when the threshold is exceeded.
 4. Implement a double clap detector by checking if two claps occur within 1 second.
 
-## **Knock or Tap Detector using Accelerometer**
+## **Vibrations Detector using Accelerometer**
 
 **Objective:** Use the accelerometer to detect a strong tap or knock on the board.
 

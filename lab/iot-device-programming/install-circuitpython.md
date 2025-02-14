@@ -16,9 +16,9 @@ Always back up your code before installing or updating CircuitPython!
 
 Next, you'll want to plug in your board using a known-good USB data cable. **Make sure the USB cable is a data cable!** Some cables work only for charging and can lead to a lot of frustration.
 
-### Start the UF2 Bootloader
+### Start the UF2 Bootloader Mode for CircuitPython Installation
 
-The downloaded bootloader file from the above step should have the extension UF2 (USB Flashing Format) which makes installing and updating CircuitPython a quick and easy process. The bootloader is the mode your board needs to be in for the CircuitPython **.uf2** file you downloaded to work.&#x20;
+The downloaded CircuitPython file from the above step should have the extension UF2 (USB Flashing Format) which makes installing and updating CircuitPython a quick and easy process. The bootloader is the mode your board needs to be in for the CircuitPython **.uf2** file you downloaded to work.&#x20;
 
 Find the reset button on your board. It's a small, black button, and on most of the boards, it will be the only button available. It is typically labelled **RESET** or **RST** on the board.&#x20;
 

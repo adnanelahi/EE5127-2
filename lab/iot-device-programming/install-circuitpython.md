@@ -12,7 +12,7 @@ Always back up your code before installing or updating CircuitPython!
 
 **ALWAYS BACKUP YOUR CODE BEFORE INSTALLING OR UPDATING CIRCUITPYTHON.**&#x20;
 
-[Download the latest CircuitPython](https://adafruit-circuit-python.s3.amazonaws.com/bin/feather\_bluefruit\_sense/en\_GB/adafruit-circuitpython-feather\_bluefruit\_sense-en\_GB-8.1.0.uf2) for the Feather Sense nRF52854 board.
+[Download the latest CircuitPython (9.x)](https://circuitpython.org/board/feather_bluefruit_sense/) or [8.x](https://adafruit-circuit-python.s3.amazonaws.com/bin/feather_bluefruit_sense/en_GB/adafruit-circuitpython-feather_bluefruit_sense-en_GB-8.1.0.uf2) as required for the Feather Sense nRF52840 board.
 
 Next, you'll want to plug in your board using a known-good USB data cable. **Make sure the USB cable is a data cable!** Some cables work only for charging and can lead to a lot of frustration.
 
@@ -22,7 +22,7 @@ The downloaded bootloader file from the above step should have the extension UF2
 
 Find the reset button on your board. It's a small, black button, and on most of the boards, it will be the only button available. It is typically labelled **RESET** or **RST** on the board.&#x20;
 
-![circuitpython\_ResetButton.jpg](https://cdn-learn.adafruit.com/assets/assets/000/048/977/medium800/circuitpython\_ResetButton.jpg?1512750806)
+![circuitpython\_ResetButton.jpg](https://cdn-learn.adafruit.com/assets/assets/000/048/977/medium800/circuitpython_ResetButton.jpg?1512750806)
 
 Tap this button twice to enter the bootloader. If it doesn't work on the first try, don't be discouraged. The rhythm of the taps needs to be correct and sometimes it takes a few tries.&#x20;
 
@@ -32,7 +32,7 @@ Once successful, the board's RGB status LED(s) will flash red and stay green. A 
 
 The drive will be called _**boardname**_**BOOT** where _**boardname**_ is a reference to your specific board. For example, Feather will have **FEATHERBOOT**
 
-![circuitpython\_FeatherBootWindows.png](https://cdn-learn.adafruit.com/assets/assets/000/048/978/medium800/circuitpython\_FeatherBootWindows.png?1512750806)
+![circuitpython\_FeatherBootWindows.png](https://cdn-learn.adafruit.com/assets/assets/000/048/978/medium800/circuitpython_FeatherBootWindows.png?1512750806)
 
 Going forward, the bootloader drive will be referred to as the **boot** drive.
 
@@ -42,11 +42,11 @@ The board is now in bootloader mode! This is what you need to install or update 
 
 Now find the file you downloaded. Drag that file to the **boot** drive on your computer.
 
-![circuitpython\_circuit\_playground\_drag.png](https://cdn-learn.adafruit.com/assets/assets/000/049/259/medium800/circuitpython\_circuit\_playground\_drag.png?1513181045)
+![circuitpython\_circuit\_playground\_drag.png](https://cdn-learn.adafruit.com/assets/assets/000/049/259/medium800/circuitpython_circuit_playground_drag.png?1513181045)
 
 The lights should flash again, **boot** will disappear and a **new** drive will show up on your computer called **CIRCUITPY**.
 
-![circuitpython\_adafruit\_gemma\_circuipy.png](https://cdn-learn.adafruit.com/assets/assets/000/048/980/medium800/circuitpython\_adafruit\_gemma\_circuipy.png?1512750807)
+![circuitpython\_adafruit\_gemma\_circuipy.png](https://cdn-learn.adafruit.com/assets/assets/000/048/980/medium800/circuitpython_adafruit_gemma_circuipy.png?1512750807)
 
 Congratulations! You've successfully installed or updated CircuitPython!
 

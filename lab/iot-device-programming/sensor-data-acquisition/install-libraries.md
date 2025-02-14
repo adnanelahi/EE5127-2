@@ -6,7 +6,7 @@ Follow these steps to get the necessary libraries installed.
 
 ### Installing CircuitPython Libraries on your Feather Sense
 
-Firstly, [download the CircuitPython library bundle](https://circuitpython.org/libraries) that matches your version of CircuitPython from CircuitPython.org.&#x20;
+Firstly, [download the CircuitPython library bundle](https://circuitpython.org/libraries) that matches your version of CircuitPython from CircuitPython.org. The libraries [bundle for old CircuitPython 8.x is available here](https://github.com/adafruit/Adafruit_CircuitPython_Bundle/releases/download/20250213/adafruit-circuitpython-bundle-8.x-mpy-20250213.zip).
 
 The bundle downloads as a .zip file. Extract the file anywhere on your PC/Laptop. Open the resulting folder.
 

@@ -32,7 +32,7 @@ Once connected you should see COM port in place of connection icon at the bottom
 
 ### The REPL
 
-The other feature of the serial connection is the **R**ead-**E**valuate**-P**rint-**L**oop, or REPL. The REPL allows you to enter individual lines of code and have them run immediately. It's really handy if you're running into trouble with a particular program and can't figure out why. It's interactive so it's great for testing new ideas.
+The other feature of the serial connection is the **R**ead-**E**valuat&#x65;**-P**rint-**L**oop, or REPL. The REPL allows you to enter individual lines of code and have them run immediately. It's really handy if you're running into trouble with a particular program and can't figure out why. It's interactive so it's great for testing new ideas.
 
 ### Entering the REPL
 

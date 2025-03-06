@@ -14,9 +14,11 @@ Choose your Raspberry Pi board after clicking on the `Choose Device` option.
 
 <figure><img src="../../.gitbook/assets/image (1) (1).png" alt="" width="563"><figcaption></figcaption></figure>
 
-Next, click on `Choose OS` option and scroll through the list of operating systems until you find the "Raspberry Pi OS (32 bit)" option.
+Next, click on `Choose OS` option and scroll through the list of operating systems until you find the "Use Custom" option towards the end of the list.
 
-<figure><img src="../../.gitbook/assets/Screenshot 2025-03-06 221538.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (2) (1).png" alt=""><figcaption></figcaption></figure>
+
+Click on the "Use custom" option and choose the \*.img.xz file.
 
 Plug in your SD card in your laptop and select it through the `Choose Storage` option in the Raspberry Pi Imager tool. Make sure to setup some password during installation. Default username is Pi.
 

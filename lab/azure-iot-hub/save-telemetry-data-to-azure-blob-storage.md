@@ -15,12 +15,13 @@ Before defining the Stream Analytics job, you should prepare the input data. The
 
 1. From the upper left-hand corner of the Azure portal, select **Create a resource** > **Storage** > **Storage account**.
 2. In the **Create storage account** pane, enter a storage account name, location, and resource group. Choose the same location and resource group as the IoT Hub you created. Then click **Review + create** to create the account.
-3. Once your storage account is created, select the **Containers** tile on the **Overview** pane.
-4. From the **Containers** page, Add **Container** and provide a name for your container, such as _iothubdatacontainer_. Leave the **Public access level** as **Private (no anonymous access)** and select **OK**.
 
 ![](../../.gitbook/assets/rT39oO2eeh.png)
 
-![](../../.gitbook/assets/chrome\_6Xwq8qLtoG.png)
+![](../../.gitbook/assets/chrome_6Xwq8qLtoG.png)
+
+3. Once your storage account is created, select  **Data Storage -> Containers** in left side navigation .
+4. From the **Containers** pane, Add **Container** and provide a name for your container, such as _iothubdatacontainer_. Leave the **Public access level** as **Private (no anonymous access)** and select **OK**.
 
 ## Create a Stream Analytics job <a href="#create-a-stream-analytics-job" id="create-a-stream-analytics-job"></a>
 
@@ -45,7 +46,7 @@ Before defining the Stream Analytics job, you should prepare the input data. The
 In this section, you will configure an IoT Hub device input to the Stream Analytics job. Use the IoT Hub you created in the previous section of the quickstart.
 
 1. Navigate to your Stream Analytics job.
-2. Select **Inputs** > **Add Stream input** > **IoT Hub**.
+2. Select **Job Topology** > **Inputs** > **Add Stream input** > **IoT Hub**.
 3.  Fill out the **IoT Hub** page with the following values:
 
     | **Setting**  | **Suggested value**  | **Description**                                                                                                                                                                                                                     |
@@ -58,7 +59,7 @@ In this section, you will configure an IoT Hub device input to the Stream Analyt
 ## Configure job output <a href="#configure-job-output" id="configure-job-output"></a>
 
 1. Navigate to the Stream Analytics job that you created earlier.
-2. Select **Outputs** > **Add** > **Blob storage**.
+2. Select **Job Topology** > **Outputs** > **Add** > **Blob storage**.
 3.  Fill out the **Blob storage** page with the following values:
 
     | **Setting**                | **Suggested value** | **Description**                                                                                                                                                                                                                     |
@@ -84,9 +85,9 @@ In this section, you will configure an IoT Hub device input to the Stream Analyt
 3. In this example, the query reads the data from IoT Hub and copies it to a new file in the blob. Select **Save Query**.
 4. Click **Test Query and** it will send sample data to the IoT Hub and display the sample data.
 
-![](../../.gitbook/assets/chrome\_flBacCKpZY.png)
+![](../../.gitbook/assets/chrome_flBacCKpZY.png)
 
-![](../../.gitbook/assets/chrome\_UDYfQIWYMD.png)
+![](../../.gitbook/assets/chrome_UDYfQIWYMD.png)
 
 ## Run the IoT simulator <a href="#run-the-iot-simulator" id="run-the-iot-simulator"></a>
 
@@ -102,8 +103,6 @@ In this section, you will configure an IoT Hub device input to the Stream Analyt
 4. Replace the placeholder in Line 15 with the Azure IoT Hub device connection string you saved in a previous section.
 5. Click **Run**. The output should show the sensor data and messages that are being sent to your IoT Hub.
 6. After few minutes, in the portal, find the storage account (_ee5122iothubstorage_) & the container that you have configured as output for the job (_iothubdatacontainer_). You can now see the output file in the container. The job takes a few minutes to start for the first time, after it is started, it will continue to run as the data arrives.
-
-![](broken-reference)
 
 ## Clean up resources <a href="#clean-up-resources" id="clean-up-resources"></a>
 

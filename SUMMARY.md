@@ -49,3 +49,4 @@
 * [Python Reference](https://python101.pythonlibrary.org/intro.html)
 * [Upgrading pip](python/upgrading-pip.md)
 * [Python Installation](python/python-installation.md)
+* [CircuitPython Help](python/circuitpython-help.md)

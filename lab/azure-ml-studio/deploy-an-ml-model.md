@@ -25,7 +25,7 @@ There are multiple ways to deploy a model in Azure Machine Learning. One of the 
 7. Enter a name for your endpoint and a compute type.
 8. In the dialog box that appears, you can select from any existing Azure Kubernetes Service (AKS) Compute clusters to deploy your model to. If you don't have an AKS cluster, use the following steps to create one.
 9. Select **Compute** in the left navigation to go to the **Compute** page.
-10. On the navigation ribbon, select **Kubernetes Clusters** > + **New**
+10. On the navigation ribbon, select **Kubernetes Clusters** > + **New > AksCompute**
 
 <figure><img src="../../.gitbook/assets/image (6).png" alt=""><figcaption></figcaption></figure>
 

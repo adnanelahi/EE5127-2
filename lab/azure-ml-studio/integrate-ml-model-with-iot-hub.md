@@ -55,7 +55,7 @@ If your input data sent to the ML UDF is inconsistent with the expected schema, 
 
 ### Video Tutorial
 
-[Integrating ML Model with IoT Hub and Power BI](https://nuigalwayie-my.sharepoint.com/:v:/g/personal/0120085s\_universityofgalway\_ie/EVbM\_DUWjwBJuRu6Kf6B\_jABOphV-P\_tbVvuuc1ssegXFQ?e=qTh8PI)
+[Integrating ML Model with IoT Hub and Power BI](https://nuigalwayie-my.sharepoint.com/:v:/g/personal/0120085s_universityofgalway_ie/EVbM_DUWjwBJuRu6Kf6B_jABOphV-P_tbVvuuc1ssegXFQ?e=qTh8PI)
 
 {% hint style="info" %}
 Query and Javascript UDF used in the video are given below.
@@ -80,7 +80,7 @@ WITH InputData AS (
 -- Result will be stored as OutputData
 OutputData AS (
     SELECT
-        udf.CreateJSONObject(temperature, humidity) AS data -- Retuns JSON string as data variable
+        udf.CreateRecord(temperature, humidity) AS data -- Retuns JSON string as data variable
     FROM
         InputData
 ),

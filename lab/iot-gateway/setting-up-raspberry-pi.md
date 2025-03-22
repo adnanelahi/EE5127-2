@@ -44,7 +44,7 @@ sudo date -s "YYYY-MM-DD HH:MM:SS"
 
 Replace `"YYYY-MM-DD HH:MM:SS"` with the current date
 
-
+If Mobile hotspot is not available to you. Follow instructions on [connecting to eduroam page](../../misc/raspberry-pi.md) to connect Raspberry Pi to eduroam network.
 
 Raspberry Pi OS comes with Python already installed. You can check the version of Python by running the following command in the Terminal
 

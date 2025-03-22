@@ -50,3 +50,7 @@
 * [Upgrading pip](python/upgrading-pip.md)
 * [Python Installation](python/python-installation.md)
 * [CircuitPython Help](python/circuitpython-help.md)
+
+## Misc
+
+* [Raspberry Pi](misc/raspberry-pi.md)

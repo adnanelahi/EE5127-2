@@ -22,9 +22,29 @@ Click on the "Use custom" option and choose the \*.img.xz file.
 
 Plug in your SD card in your laptop and select it through the `Choose Storage` option in the Raspberry Pi Imager tool. Make sure to setup some password during installation. Default username is Pi.
 
+Click Next and select `Edit Settings` option.
+
+<figure><img src="../../.gitbook/assets/Screenshot 2025-03-22 154158.png" alt=""><figcaption></figcaption></figure>
+
+Enter customisations as shown in the screenshot below. Turn on your Mobile Hotspot (if available) and enter the name and password of the hotspot in the SSID and password field, respectively. Ensure that the `Wireless LAN country` is set to **IE** and `locale settings` have the correct **Time zone** (Europe/Dublin) and **Keyboard layout** selected. Click `Save` and then `Yes` in the customisation popup.
+
+<figure><img src="../../.gitbook/assets/Screenshot 2025-03-22 123617.png" alt=""><figcaption></figcaption></figure>
+
 Click next and wait until the tool finishes writing up the OS on the SD card.&#x20;
 
 Eject the SD card from your laptop and insert the card into Raspberry Pi.&#x20;
+
+Ensure that Raspberry Pi OS displays the correct time in the clock once it starts. If it displays incorrect time, use the following command to set correct time.
+
+To ensure that the Raspberry Pi OS displays the correct time, observe the clock when it starts. If the time is incorrect, use the following command to set the correct time:
+
+```bash
+sudo date -s "YYYY-MM-DD HH:MM:SS"
+```
+
+Replace `"YYYY-MM-DD HH:MM:SS"` with the current date
+
+
 
 Raspberry Pi OS comes with Python already installed. You can check the version of Python by running the following command in the Terminal
 

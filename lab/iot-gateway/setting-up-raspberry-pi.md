@@ -1,3 +1,7 @@
+---
+hidden: true
+---
+
 # Setting up Raspberry Pi
 
 Raspberry Pi will require the installation of an operating system. The easiest way to install an operating system on Raspberry Pi is to use the [Raspberry Pi Imager tool](https://www.raspberrypi.com/software/).

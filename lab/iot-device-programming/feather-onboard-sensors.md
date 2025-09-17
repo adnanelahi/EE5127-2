@@ -1,3 +1,7 @@
+---
+hidden: true
+---
+
 # Feather Onboard Sensors
 
 <figure><img src="../../.gitbook/assets/image (9).png" alt=""><figcaption></figcaption></figure>

@@ -1,6 +1,10 @@
+---
+hidden: true
+---
+
 # BLE Communication
 
-For BLE communication between IoT Gateway and IoT Device (Feather nRF52840 Sense), we are using the Adafruit [Blinka bleio library](https://github.com/adafruit/Adafruit\_Blinka\_bleio) ().&#x20;
+For BLE communication between IoT Gateway and IoT Device (Feather nRF52840 Sense), we are using the Adafruit [Blinka bleio library](https://github.com/adafruit/Adafruit_Blinka_bleio) ().&#x20;
 
 Create a folder for EE5127 lab work and within this folder create a new [Virtual Environment. ](https://www.geeksforgeeks.org/python-virtual-environment/)
 

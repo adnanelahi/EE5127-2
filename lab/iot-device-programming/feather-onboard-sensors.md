@@ -10,8 +10,6 @@
 
 These sensors are 6-DoF IMU accelerometer + gyroscope. The 3-axis accelerometer can tell you which direction is down towards the Earth (by measuring gravity) or how fast the Feather Sense is accelerating in 3D space. The 3-axis gyroscope can measure spin and twist. Pair with a triple-axis magnetometer to create a 9-DoF inertial measurement unit that can detect its orientation in real-space thanks to Earth's stable magnetic field. **Both** **sensors are I2C on standard pins, have address 0x6A and IRQ pin on digital pin 3.**
 
-As of January 10, 2024 - We have replaced the discontinued LSM6DS33 with an LSM6DS3TR-C 6 DoF sensor. The performance is improved however new firmware libraries will need to be used in order to read the accelerometer and gyroscope.
-
 <figure><img src="../../.gitbook/assets/image (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 **Light + Gesture + Proximity: APDS9960** - Detect simple gestures (left to right, right to left, up to down, down to up are currently supported), return the amount of red, blue, green, and clear light, or return how close an object is to the front of the sensor. This sensor has an integrated IR LED and driver, along with four directional photodiodes that sense reflected IR energy from the LED. Since there are four IR sensors, you can measure the changes in light reflectance at each of the cardinal locations over time and turn those changes into gestures. **Sensor is I2C on standard pins, address 0x39 and IRQ pin on digital pin 36**

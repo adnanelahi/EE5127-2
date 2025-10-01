@@ -1,7 +1,3 @@
----
-hidden: true
----
-
 # File I/O
 
 The code will first generate random data and write to a file `data.txt`. The next block of code will read data from `data.txt` , parse this data and print this data on the console.

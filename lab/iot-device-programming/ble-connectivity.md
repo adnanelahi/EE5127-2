@@ -1,7 +1,3 @@
----
-hidden: true
----
-
 # BLE Connectivity
 
 ### Feather nRF52840 as BLE Peripheral Device

@@ -4,7 +4,7 @@
 
 Use the following CircuitPython code to make your board act as a peripheral device. The code will advertise the name of the device and services that are available on your board.
 
-You may need to install the `adafruit_ble` library. The process of installing the BLE library is the same as the [sensor libraries installed](sensor-data-acquisition/install-libraries.md) for Sensor Data Acquisition.&#x20;
+You may need to install the `adafruit_ble` library. The process of installing the BLE library is the same as the [sensor libraries installed](../sensor-data-acquisition/install-libraries.md) for Sensor Data Acquisition.&#x20;
 
 Copy the following code to the `code.py` in `CIRCUITPY` drive.
 
@@ -93,17 +93,17 @@ To connect to the Adafruit Feather nRF52840, touch the **Connect** button. You s
 
 If you don't see your device right away, try pulling down to refresh. If that doesn't work, try turning Bluetooth off and back on on your phone or tablet and restarting the app.
 
-<figure><img src="../../.gitbook/assets/image (3) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (3) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 #### Device Menu
 
 After you connect, you'll see a menu of how you can interact with the device. Choose **UART**.
 
-<figure><img src="../../.gitbook/assets/image (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 Data sent from the peripheral BLE device will appear in red.
 
-<figure><img src="../../.gitbook/assets/image (3) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (3) (1).png" alt=""><figcaption></figcaption></figure>
 
 ### More BLE experiments
 

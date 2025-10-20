@@ -1,3 +1,7 @@
+---
+hidden: true
+---
+
 # Monitor D2C messages in VS Code
 
 {% hint style="info" %}

@@ -23,9 +23,13 @@ There are multiple ways to deploy a model in Azure Machine Learning. One of the 
 <figure><img src="../../.gitbook/assets/image (5) (1).png" alt=""><figcaption></figcaption></figure>
 
 7. Enter a name for your endpoint and a compute type.
-8. In the dialog box that appears, you can select from any existing Azure Kubernetes Service (AKS) Compute clusters to deploy your model to. If you don't have an AKS cluster, use Steps 10-13 to create one.&#x20;
-9. Select **Compute** in the left navigation to go to the **Compute** page.
-10. On the navigation ribbon, select **Kubernetes Clusters** > + **New > AksCompute**
+8. In the dialogue box that appears, you can select from any existing Azure Kubernetes Service (AKS) Compute clusters to deploy your model to. If you don't have an AKS cluster, use Steps 9-13 to create one.  Alternatively, you could deploy your model on an Azure Container Instance by selecting Compute type **Azure Container Instance**. Sometimes, deployment may fail due to the availability of resources in the selected region (particularly in Azure for Students subscription). You have to try deployment again if it fails on the first try.
+
+<figure><img src="../../.gitbook/assets/Screenshot 2025-11-14 004742.png" alt=""><figcaption></figcaption></figure>
+
+9. Creation of the endpoint may take a while. The endpoint will be **Transitioning** while it is being created. Wait until the **Deployment state** of the endpoint changes from **Transitioning** to **Healthy**.
+10. Select **Compute** in the left navigation to go to the **Compute** page.
+11. On the navigation ribbon, select **Kubernetes Clusters** > + **New > AksCompute**
 
 <figure><img src="../../.gitbook/assets/image (6) (1).png" alt=""><figcaption></figcaption></figure>
 

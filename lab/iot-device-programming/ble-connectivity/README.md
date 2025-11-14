@@ -99,7 +99,7 @@ If you don't see your device right away, try pulling down to refresh. If that do
 
 After you connect, you'll see a menu of how you can interact with the device. Choose **UART**.
 
-<figure><img src="../../../.gitbook/assets/image (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 Data sent from the peripheral BLE device will appear in red.
 

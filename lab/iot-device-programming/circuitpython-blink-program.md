@@ -6,7 +6,7 @@ Download and install [Visual Studio Code](https://code.visualstudio.com/) on you
 
 Install necessary Visual Studio Code (VS Code) extensions. These include "Python", "Visual Studio IntelliCode" from Microsoft and "[CircuitPython V2](https://marketplace.visualstudio.com/items?itemName=wmerkens.vscode-circuitpython-v2)". Restart VS Code after installing each extension.
 
-<figure><img src="../../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption><p>Installing extensions in Visual Study Code </p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption><p>Installing extensions in Visual Study Code </p></figcaption></figure>
 
 Open `CIRCUITPY` directory in VS Code
 

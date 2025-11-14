@@ -14,7 +14,7 @@ The first time you run Azure IoT explorer, you're prompted for your IoT hub's co
 
 After saving the connection string select `View devies in this hub.` .&#x20;
 
-<figure><img src="../../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 It displays the Devices list page that lists the device identitites registered with your IoT hub. You can select any entry in the list to see more information.
 

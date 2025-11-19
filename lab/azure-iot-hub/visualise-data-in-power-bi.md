@@ -23,7 +23,7 @@ You learn how to visualize real-time sensor data that your Azure IoT hub receive
 
 ### Video Tutorial
 
-[Visualise Streaming Sensor Data in Power BI](https://nuigalwayie-my.sharepoint.com/:v:/r/personal/0120085s\_nuigalway\_ie/Documents/Creating%20Power%20BI%20Dashboard%20to%20Visualise%20Streaming%20Sensor%20Data.mov?csf=1\&web=1\&e=2feIX7)
+[Visualise Streaming Sensor Data in Power BI](https://nuigalwayie-my.sharepoint.com/:v:/r/personal/0120085s_nuigalway_ie/Documents/Creating%20Power%20BI%20Dashboard%20to%20Visualise%20Streaming%20Sensor%20Data.mov?csf=1\&web=1\&e=2feIX7)
 
 ## Create, configure, and run a Stream Analytics job <a href="#create-configure-and-run-a-stream-analytics-job" id="create-configure-and-run-a-stream-analytics-job"></a>
 
@@ -90,10 +90,8 @@ In the Stream Analytics job, click **Start** > **Now** > **Start**. Once the job
 1. Ensure the sample application is running on your device. If not, you can refer to the tutorials under [Setup your device](https://adnan-elahi.gitbook.io/ee5122/send-telemetry-data-using-raspberry-pi-device).
 2. Sign in to your [Power BI](https://powerbi.microsoft.com/en-us/) account.
 3. Go to the group workspace that you set when you created the output for the Stream Analytics job.
-4.  Click **Datasets**.
-
-    You should see the listed dataset that you specified when you created the output for the Stream Analytics job.
-5. Under your workspace, click your dataset to create a visualisation.
+4. Click My Workspace -> New item -> Dashboard. Enter name for your Dashboard.
+5. Click Edit -> Add a tile -> Select source -> Custom Streaming Data and choose your dataset, which should be appearing under **Your Datasets**.
 6. Create a line chart to show real-time temperature over time.
    1. On the report creation page, add a line chart.
    2. On the **Fields** pane, expand the table that you specified when you created the output for the Stream Analytics job.
